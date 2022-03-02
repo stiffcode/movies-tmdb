@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 150px;
+  
+}
+
+.container .movies {
+  max-width: 1024px;
+}
+.react-multi-carousel-dot-list {
+  margin-top: 20px;
+}
+
+
+/* Movie Card */
+
+.cardMovie {
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+
+  
+}
+.cardBody {
+  background-color: black;
+  padding: 10px;
+  min-height: 522px;
+  height: 100%;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(255,255,255,0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(255,255,255,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(255,255,255,0.75);
+  cursor: pointer;
+}
+
+/* Movie Result */ 
+
+.containerMovie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  height: 100%;
+}
+
+.containerMovie .movieData {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+}
+
+.containerMovie .movieData .containerImg {
+  max-width: 500px;
+  width: 100%;
+  padding: 0px 20px;
+  
+}
+.containerMovie .movieData .movieBody {
+  width: 100%;
+  color: #fff;
+}
+.containerMovie .movieData .movieBody .MovieAdult {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
